@@ -22,3 +22,22 @@ const result3 = createTupleWithGeneric(
   { name: "hello", age: "saiful" },
   "kabul",
 );
+
+const addStudent = <x>(student: x) => {
+  return student;
+};
+
+const sutudent1 = {
+  name: "abul",
+  age: 11,
+  location: "barisal",
+};
+
+const sutudent2 = {
+  name: "babul",
+  age: 15,
+  location: "Patuakhali",
+  isMarrid: true,
+};
+
+console.log(addStudent(sutudent1));
