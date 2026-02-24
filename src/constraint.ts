@@ -17,4 +17,5 @@ const sutudent2 = {
   isMarrid: true,
 };
 
-console.log(addStudent(sutudent2));
+const newUser: string = "hello user";
+// console.log(addStudent(sutudent2));
